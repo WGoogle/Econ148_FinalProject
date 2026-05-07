@@ -15,3 +15,4 @@ Recommended run order:
 4. `4_Comparisons.ipynb`
 
 Fair warning, Binder may take a bit to run the first time. It doesn't mean its broken, just building the environment. 
+Also, keep in mind that for the sake of reproduciblity, we auto saved the datasets we used in the repo. If you want to make your own API Call -- make a "secret_key.env" file and paste in FRED_API_KEY=your_api_key_here and of course replace the your_api_key_here with your actual API Key. This will allow you to then run our notebooks with your own API Call. 
